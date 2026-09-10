@@ -4,7 +4,7 @@ echo %dirnm%
 mkdir %dirnm%
 cd %dirnm%
 copy C:\Repositories\pico\es-student\base C:\Repositories\pico\es-student\%dirnm%
-
+set "dirnm=%dirnm:-=_%"
 (
 echo cmake_minimum_required^(VERSION 3.15^)
 echo.

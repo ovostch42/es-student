@@ -5,7 +5,7 @@ set(PICO_PLATFORM rp2040)
 
 include(pico_sdk_import.cmake)
 
-project(121_blink_reg)
+project(122_led_button)
 
 pico_sdk_init()
 
@@ -14,7 +14,7 @@ add_executable(${PROJECT_NAME}
 )
 
 target_link_libraries(${PROJECT_NAME}
-   pico_stdlib
+pico_stdlib
 )
 
 pico_set_linker_script(${PROJECT_NAME}
