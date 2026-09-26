@@ -2,26 +2,23 @@
 #include "hardware/gpio.h"
 #include <stdio.h>
 #include "led.h"
-#include "log.h"
+//#include "log.h"
 
 const uint BUTTON_PIN = 15;
 
 const uint DEBOUNCE_MS = 20;
-
 
 bool handle_command(int command, bool led)
 {
     if (command == 'e')
     {
        led_set(true);
+       printf("led %s\n", led_is_on() ? "on" : "off");
     }
     else if (command == 'd')
     {
         led_set(false);   
-    }
-    else if (command == 'v')
-    {
-        log_version();
+        printf("led %s\n", led_is_on() ? "on" : "off");
     }
     else
     {
@@ -70,7 +67,7 @@ int main()
             continue;
         }
 
-        LOG_DBG("got %c\n", command);
-        led = handle_command(command, led);
+        //LOG_DBG("got %c\n", command);
+        handle_command(command, led);
     }
 }
