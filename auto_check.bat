@@ -4,7 +4,7 @@ set /p num="insert check number "
 cd .github\workflows
 
 (
-echo name: %name%
+echo name: %num%
 echo.
 echo on:
 echo   push:
