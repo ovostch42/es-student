@@ -3,3 +3,9 @@
 
 #define DEVICE_PROJECT "134-led-module"
 #define DEVICE_REPO "https://github.com/Ovostch42/es-student"
+
+#ifndef DEVICE_BOARD
+#define DEVICE_BOARD "unknown"
+#endif
+
+void device_info(void);
