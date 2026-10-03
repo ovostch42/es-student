@@ -3,21 +3,21 @@
 устройство: 2e8a:000a
 серийный номер: E66540F0A3599B2C
 порт: COM9
-начало: 2026-10-03T15:00:47
+начало: 2026-10-03T15:28:11
    0.000 --> enable
-   0.127 <-- enable
-   0.170 <-- dbg read_line:60 got enable
-   0.177 <-- inf handle_command:23 led on
-   2.197 --> disable
-   2.348 <-- disable
-   2.360 <-- dbg read_line:60 got disable
-   2.367 <-- inf handle_command:28 led off
-   4.401 --> info
-   4.489 <-- info
-   4.502 <-- dbg read_line:60 got info
-   4.509 <-- device: es-led-module 1.0.0, built Oct  3 2026 14:52:39, log level 3
-   6.550 --> nosuchcommand
-   6.831 <-- nosuchcommand
-   6.878 <-- dbg read_line:60 got nosuchcommand
-   6.885 <-- err handle_command:40 unknown command: �
+   0.124 <-- enable
+   0.152 <-- dbg read_line:60 got enable
+   0.160 <-- inf handle_command:23 led on
+   2.187 --> disable
+   2.345 <-- disable
+   2.391 <-- dbg read_line:60 got disable
+   2.396 <-- inf handle_command:28 led off
+   4.422 --> info
+   4.505 <-- info
+   4.510 <-- dbg read_line:60 got info
+   4.514 <-- device: es-led-module 1.0.0, built Oct  3 2026 15:27:25, log level 3
+   6.540 --> nosuchcommand
+   6.805 <-- nosuchcommand
+   6.810 <-- dbg read_line:60 got nosuchcommand
+   6.815 <-- err handle_command:40 unknown command: nosuchcommand
 итог: отправлено команд 4, принято строк 12
