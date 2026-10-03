@@ -29,11 +29,11 @@ bool handle_command(const char *command)
     }
     else if (strcmp(command, "info") == 0)
     {
-        log_version();
+        device_info();
     }
     else if (strcmp(command, "version") == 0)
     {
-        device_info();
+        log_version();
     }
     else
     {

@@ -5,4 +5,5 @@ cd build
 echo o da vse systemi vklucheni
 cmake -G "Unix Makefiles" ..
 make
+call shilo.bat
 pause
