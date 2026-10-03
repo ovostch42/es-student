@@ -46,7 +46,7 @@ while True:
         with open("2.txt", "a") as f:
             f.write(str(data2)+"/")
             f.close()
-        draw_graph(ax,count)
+        #draw_graph(ax,count)
         print('goida')
     time.sleep(1)
 
